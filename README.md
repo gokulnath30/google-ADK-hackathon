@@ -1,3 +1,4 @@
+```
 import json
 import re
 
@@ -14,3 +15,4 @@ def text_to_json(text: str):
     
     # 3. Convert to Python dict
     return json.loads(json_str)
+```
